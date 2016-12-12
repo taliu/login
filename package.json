@@ -1,0 +1,32 @@
+{
+  "name": "passport_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "express-validator": "^3.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "nedb-promise": "^2.0.0",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "vash": "^0.12.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
