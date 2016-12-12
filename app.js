@@ -35,6 +35,6 @@ app.use('/api',require('./api'))
 app.use('/web',require('./web'))
 
 
-app.listen(7771, function () {
-    console.log('website running at http://127.0.0.1:7771');
+app.listen(app.get('port'), function () {
+    console.log('website running at http://127.0.0.1:'+app.get('port'));
 })
